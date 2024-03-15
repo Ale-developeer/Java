@@ -1,12 +1,11 @@
 import java.util.Scanner;
 
 public class DNI extends Main {
-    public static String dni(){
+    public static Integer dni(){
 
         Scanner scanner = new Scanner(System.in);
         System.out.print("ingrese dni: ");
-        int dni = scanner.nextInt();
-        return scanner.nextLine();
+        return Integer.valueOf(scanner.nextLine());
 
     }
 }
